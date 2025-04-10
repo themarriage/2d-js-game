@@ -1,0 +1,47 @@
+/*reset the default margins and padding*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*syle the game conntainer*/
+#game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*canvas styling*/
+#game-canvas {
+    border: 	2px solid #333;
+    background-color: #ffff;
+    margin-top: 20px;
+}
+
+/* score styleing*/
+#score {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Toggle Music button stlyeing*/
+#music-toggle{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+#music-toggle:hover{
+    background-color: black;
+}
