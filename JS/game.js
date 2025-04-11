@@ -120,8 +120,8 @@ function gameLoop() {
 
     ground.draw(ctx);
 
-    ctx.fillStyle = 'brown';
-    platforms.forEach(p => ctx.fillRect(p.x, p.y, p.width, p.height));
+   // ctx.fillStyle = 'brown';
+   // platforms.forEach(p => ctx.fillRect(p.x, p.y, p.width, p.height));
 
     collectibles.forEach(c => {
         if (c.checkCollision(player)) {
